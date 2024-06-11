@@ -29,10 +29,6 @@ steps:
      
     uses: actions/checkout@v4
     name: Docker Image CI
-
-    on:
-    push:
-    branches: [ "master" ]
   
 
     jobs:
